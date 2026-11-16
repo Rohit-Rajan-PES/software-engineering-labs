@@ -1,0 +1,7 @@
+************* Module fare_calculator
+fare_calculator.py:124:8: W0107: Unnecessary pass statement (unnecessary-pass)
+fare_calculator.py:10:0: C0411: standard import "xml.sax.handler.ContentHandler" should be placed before third party imports "paramiko", "defusedxml.sax" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
