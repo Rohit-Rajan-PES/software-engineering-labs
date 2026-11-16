@@ -1,0 +1,20 @@
+[project]
+name = "lab6"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "NTX STEALTH", email = "rohitrajan2005@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "coverage>=7.17.2",
+    "pytest>=9.2.0",
+]
+
+[project.scripts]
+lab6 = "lab6:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
